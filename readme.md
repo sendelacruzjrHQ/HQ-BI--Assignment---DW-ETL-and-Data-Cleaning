@@ -22,10 +22,10 @@ valid_offer_available_flag ==> indication if a hotel has a valid offer during th
 price_usd ==> the original_price converted to USD<br>
 valid_from_date / valid_to_date ==> indication of time date&time when the offer became active / inactive.<br>
 
-***Offers cannot overlap for one hotel with the same parameters (checkin, checkout, source, breakfast)<br>
-***The valid_offers table should show only valid offers with price converted to USD.<br>
-***The hotel_offers table should indicate for each hotel if the hotel had offers for each day and hour. <br>
-***The days & hours when the hotel was not available should have indication valid_offer_available_flag = 0.<br>
+-Offers cannot overlap for one hotel with the same parameters (checkin, checkout, source, breakfast)<br>
+-The valid_offers table should show only valid offers with price converted to USD.<br>
+-The hotel_offers table should indicate for each hotel if the hotel had offers for each day and hour. <br>
+-The days & hours when the hotel was not available should have indication valid_offer_available_flag = 0.<br>
 
 Steps:<br>
 1. Create [HQ] folder under [c:\temp] drive and place the csv file source or you may modify the script to change the source path<br>
